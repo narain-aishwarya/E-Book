@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-book</title>
+
+  <link href='/assets/style.css' rel='stylesheet'>
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <i class="ri-book-3-line"></i> E-Book
+      </a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__list">
+            <a href="#home" class="nav__link">
+              <i class="ri-home-line"></i>
+              <span> Home </span>
+            </a>
+          </li>
+
+          <li class="nav__list">
+            <a href="#featured" class="nav__link">
+              <i class="ri-book-3-line"></i>
+              <span> Featured </span>
+            </a>
+          </li>
+
+          <li class="nav__list">
+            <a href="#discount" class="nav__link">
+              <i class="ri-price-tag-3-line"></i>
+              <span> Discount </span>
+            </a>
+          </li>
+
+          <li class="nav__list">
+            <a href="#new" class="nav__link">
+              <i class="ri-bookmark-line"></i>
+              <span> New Books </span>
+            </a>
+          </li>
+
+          <li class="nav__list">
+            <a href="#testimonial" class="nav__link">
+              <i class="ri-message-3-line"></i>
+              <span> Testimonial </span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="nav__actions">
+        <!-- Search Button -->
+        <i class="ri-search-line search-button" id="search-button"></i>
+
+        <!-- login button -->
+        <i class="ri-user-line login_button" id="login-button"></i>
+
+        <!-- theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Search -->
+  <div class="search" id="search-content">
+    <form action="" class="search__form">
+      <i class="ri-search-line search__icon"></i>
+      <input type="search" placeholder="What are you looking for?" class="search__input">
+    </form>
+
+    <i class="ri-close-line search__close" id="search-close"></i>
+  </div>
+
+  <!-- Login -->
+  <div class="login grid" id="login-content">
+    <form action="" class="login__form grid">
+      <h3 class="login__title">Log In</h3>
+
+      <div class="login__group grid">
+        <div>
+          <label for="login-email" class="login__label">Email</label>
+          <input type="email" placeholder="Write your email" id="login-email" class="login__input">
+        </div>
+
+        <div>
+          <label for="login-pass" class="login__label">Password</label>
+          <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+        </div>
+      </div>
+
+      <div>
+        <span class="login__signup">
+          You do not have an account? <a href="#">Sign Up</a>
+        </span>
+
+        <a href="#" class="login__forget">
+          You forgot your password
+        </a>
+
+        <a href="#" class="login__button button">Log In</a>
+      </div>
+    </form>
+
+    <i class="ri-close-line login__close" id="login-close"></i>
+  </div>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
